@@ -15,9 +15,7 @@ class TownTeamApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TownTeam App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
     );

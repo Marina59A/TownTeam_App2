@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:townteam_app2/features/homepage/presentation/widgets/listtile_drawer.dart';
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
@@ -44,6 +44,62 @@ class MyHomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+            ),
+            ListTileDrawer(
+              title: 'Home',
+              icon: Icons.home,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'MENS',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'KIDS',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'SUMMER COLLECTION',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'WINTER COLLECTION',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'PROMOTIONS',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'MY ACCOUNT',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTileDrawer(
+              title: 'CUSTOMER SERVICE',
+              icon: Icons.person,
+              onTap: () {
+                Navigator.pop(context);
+              },
             ),
           ],
         ),

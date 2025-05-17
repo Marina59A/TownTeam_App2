@@ -42,17 +42,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyAMYFBVd7qozfaQ2xyhTON1tVazAxRdV2o',
-    appId: '1:480857308305:web:802100d002b28178245330',
+    appId: '1:480857308305:web:0b7859dcaedde072245330',
     messagingSenderId: '480857308305',
     projectId: 'town-team-96276',
     authDomain: 'town-team-96276.firebaseapp.com',
     storageBucket: 'town-team-96276.firebasestorage.app',
-    measurementId: 'G-H4NJMDY4K7',
+    measurementId: 'G-SDHDEHHTFN',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDBEgzvoCK2EaLjjekBJMDe7OeNlOGNGtE',
-    appId: '1:480857308305:android:3f51afee65deddf1245330',
+    appId: '1:480857308305:android:1082efd74fa7bd9f245330',
     messagingSenderId: '480857308305',
     projectId: 'town-team-96276',
     storageBucket: 'town-team-96276.firebasestorage.app',
